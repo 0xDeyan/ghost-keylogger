@@ -37,7 +37,7 @@ Replace the encoded_email and encoded_pass fields with your base64-encoded crede
 
 3.Run it
 
-    python red_keylogger.py
+    python ghost_keylogger.py
 
 Will silently log all keys
 
