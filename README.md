@@ -3,17 +3,17 @@
 ## ⚠️ Disclaimer
 **This tool is for ethical learning purposes only. Do not deploy it on systems you do not own or control.**
 
-## 🔒 Purpose
+##  Purpose
 A stealthy Python-based keylogger that captures keystrokes and exfiltrates data via Gmail, demonstrating offensive security tactics.
 
-## 🚀 Features
+##  Features
 - Global keyboard logging via `pynput`
 - Logs sent automatically every 5 minutes
 - Uses Gmail SMTP over SSL
 - Basic obfuscation (base64)
 - Minimal footprint (threaded, no local files)
 
-## 📦 Requirements
+##  Requirements
 - Python 3.7+
 - pip install pynput
 
