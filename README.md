@@ -35,7 +35,7 @@ A stealthy Python-based keylogger that captures keystrokes and exfiltrates data 
     print(base64.b64encode(b"your_email@gmail.com"))
     print(base64.b64encode(b"your_app_password"))
 
-Run it
+3.Run it
 
 python red_keylogger.py
 
@@ -43,7 +43,7 @@ python red_keylogger.py
 
     Sends logs via email every 5 minutes
 
-Stop it
+4.Stop it
 
     Press Ctrl+C in terminal
 
